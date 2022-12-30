@@ -49,10 +49,7 @@ public class Boite {
 	}
 	
 	public boolean estPerimee() {
-		DateFormat format = new SimpleDateFormat("yyyyddMM");
 		Date date = new Date();
-		System.out.println(date);
-		System.out.println(format.format(date));
 		return datePeremption.before(date);
 	}
 	

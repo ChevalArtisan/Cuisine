@@ -1,7 +1,7 @@
 package stockage;
 
 public enum Ingredient {
-	PAIN("pain"), STEAK("steak"),TOMATE("tomate"),FROMAGE("fromage");
+	PAIN("pain"), STEAK("steak"),TOMATE("tomate"),FROMAGE("fromage"),OIGNON("oignon"),SALADE("salade"),CORNICHON("cornichon");
 	
 	private String nom;
 	
